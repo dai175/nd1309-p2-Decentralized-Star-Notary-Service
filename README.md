@@ -133,6 +133,16 @@ compilers: {
 
 2. If you have suggestions or facing issues, you can log in issue. 
 
+## This token's information
+1. ERC-721 Token Name: StarNotary
+2. ERC-721 Token Symbol: STN
+3. Version of the Truffle and OpenZeppelin used
+
+    Truffle: v5.0.2
+
+    OpenZeppelin: v2.3
+4. Token Address on the Goerli Network: 0x35Aef9B620a79B6423433645d02E3EE63f8a492B
+
 ---
 
 Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)

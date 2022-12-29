@@ -1,0 +1,68 @@
+daisuke@Daisukes-MacBook-Air app % truffle migrate --reset --network goerli
+Compiling ./contracts/StarNotary.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/drafts/Counters.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/token/ERC721/ERC721.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol...
+Compiling ./node_modules/openzeppelin-solidity/contracts/utils/Address.sol...
+Writing artifacts to ./build/contracts
+
+⚠️  Important ⚠️
+If you're using an HDWalletProvider, it must be Web3 1.0 enabled or your migration will hang.
+
+
+Starting migrations...
+======================
+> Network name:    'goerli'
+> Network id:      5
+> Block gas limit: 30000000
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x537d3d153b857cdb83517be0119fe0b251e50c2e426d44c36b0d2dfc28e32240
+   > Blocks: 1            Seconds: 5
+   > contract address:    0x3E3Bb796595eE169225689E82CD9f4a5046B6FD4
+   > account:             0xa998906A36bfaaBd492518231703426e0eb6c494
+   > balance:             0.1435126063310861
+   > gas used:            226537
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00226537 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00226537 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0x4d24096e016f316a85816c59b4883fd2f8fa21b09669c7cf30a5fd2edc2dde71
+   > Blocks: 0            Seconds: 5
+   > contract address:    0x35Aef9B620a79B6423433645d02E3EE63f8a492B
+   > account:             0xa998906A36bfaaBd492518231703426e0eb6c494
+   > balance:             0.1201175963310861
+   > gas used:            2339501
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02339501 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.02339501 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.02566038 ETH
+
